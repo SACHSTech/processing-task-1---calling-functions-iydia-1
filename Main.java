@@ -1,15 +1,15 @@
 import processing.core.PApplet;
 
 /**
- * Main class to execute sketch
- * @author 
+ * Main class to execute the sketch
+ * @author Lydia He
  *
  */
 class Main {
   public static void main(String[] args) {
     
     String[] processingArgs = {"MySketch"};
-	  Sketch mySketch = new Sketch();
+	  Rainbow mySketch = new Rainbow();
 	  PApplet.runSketch(processingArgs, mySketch);
   }
   
